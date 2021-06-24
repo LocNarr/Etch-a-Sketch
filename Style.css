@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@300&display=swap');
+
+body{
+    background-color:rgb(97, 84, 84);
+  
+}
+
+header{
+    text-align:center;
+    font-family: 'Press Start 2P', cursive;
+    font-size:30px;
+    letter-spacing: 5px;
+    padding-top:50px;
+    padding-bottom:50px;
+    border-bottom:2px solid black;
+    
+}
+
+#main-container{
+    border:5px solid black;
+    height:480px;
+    width:480px;
+    background-color:white;
+    margin:auto;
+    
+}
+
+
+#menu{
+    position: absolute;
+    left:710px;
+    width:490px;
+    text-align: center;
+}
+
+#menu ul{
+    display:flex;
+    justify-content: space-between;
+    padding:0;
+}
+
+#menu ul button{
+    width:80px;
+    height:40px;
+    border-radius:2px;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size:25px;
+    transition:0.5s;
+}
+
+#menu ul button:hover{
+    background-color:rgb(167, 116, 116);
+}
+
+
+
+.container{
+    width:480px;
+    height:480px;
+   display:flex;
+   flex-wrap:wrap;
+}
+
+.items1{
+width:120px;
+height:120px;
+background-color:white;
+
+
+}
+
+.items2{
+    width:60px;
+    height:60px;
+    background-color:white;
+}
+
+.items3{
+    width:30px;
+    height:30px;
+    background-color:white;
+    
+}
+
+.items4{
+    width:15px;
+    height:15px;
+    background-color:white;
+   
+}
+
+.items5{
+    width:7.5px;
+    height:7.5px;
+    background-color:white;
+    
+}
+
+#size{
+    position: absolute;
+    left:710px;
+    width:490px;
+    text-align: center;
+}
+
+#size ul{
+    display:flex;
+    justify-content: space-between;
+}
+
+#size ul button{
+    width:65px;
+    border-radius:2px;
+}
+
+
+#size ul button:hover{
+    background-color:gray;
+}
+
+
